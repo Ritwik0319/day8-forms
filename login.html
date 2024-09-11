@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+    <form action="welcome.html">
+        <fieldset>
+            <legend>LOG IN!</legend>
+            <!-- username -->
+            <label for="user_name"></label>
+            <input type="text" id="user_name" name="user_name" placeholder="Enter User Name" pattern="[A-Za-z0-9]+" required><br><br>
+            <!-- password -->
+            <label for="password"></label>
+            <input type="text" id="password" name="password" placeholder="Enter password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])[A-Za-z!@#$%^&*0-9]+" required><br><br>
+            <!-- submitbtn -->
+            <input type="submit" value="Login">
+            <pre>I don't have an account |<a href="index.html">Signup</a></pre>
+            <a href="forgetp.html">Forget password ?</a>
+        </fieldset>
+    </form>
+</body>
+</html>

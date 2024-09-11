@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORGETPASS</title>
+</head>
+<body>
+    <form action="login.html" method="get">
+        <fieldset>
+            <legend>FORGET PASSWORD</legend>
+            <!-- oldpass -->
+            <label for="oldpassword"></label>
+            <input type="text" id="oldpassword" name="oldpassword" placeholder="Enter Old password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])[A-Za-z!@#$%^&*0-9]+" required><br><br>
+            <!-- newpassword -->
+            <label for="newpassword"></label>
+            <input type="text" id="newpassword" name="newpassword" placeholder="Enter New password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])[A-Za-z!@#$%^&*0-9]+" required><br><br>
+            <!-- reenterpass -->
+            <label for="repassword"></label>
+            <input type="text" id="repassword" name="repassword" placeholder="RE-enter password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])[A-Za-z!@#$%^&*0-9]+" required><br><br>
+            <!-- submitbtn -->
+            <input type="submit" value="Reset Password">
+        </fieldset>
+    </form>
+</body>
+</html>
